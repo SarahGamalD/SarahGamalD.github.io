@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Connect Four</title>
+    <link href="../css/tableboard.css" rel="stylesheet" />
+    <script src="../javascript/lvl1.js"></script>
+    <script src="../javascript/lvl2.js"></script>
+    <script src="../javascript/tableBoard.js"></script>
+    <script src="../javascript/localstorage.js"></script>
+</head>
+<body>
+    <!--Yasmina-->
+    <div id="cover">
+        <div id="innerDiv">&times;</div>
+        <div id="confirm">
+            <h1></h1>
+            <h3>WINNER</h3>
+            <h3>Do you Want to Replay ?</h3>
+            <div class="cont">
+                <span id="greenbtn">Play</span>
+                <span id="redbtn">Cancel</span>
+            </div>
+        </div>
+    </div>
+    <!--Samar-->
+    <div id="wrapper">
+        <div id="Data">
+            <div>&times;</div>
+            <p></p>
+            <p></p>
+        </div>
+        <div id="namesAndStart">
+            <!--Yasmina {-->
+            <lable>First Player : </lable>
+            <div id="first" ></div>
+            <input type="button" id="player1" value="show Data"/><br/>
+            <lable>Second Player :</lable>
+            <div id="second"></div>
+            <input type="button" id="player2" value="show Data" />
+
+            <!--}-->
+            <!--Sara {-->
+            <div id="playDiv">
+                <input type="submit" value="Play" />
+            </div>
+            <!--}-->
+        </div>
+        <img id="con4" src="../img/connect-4.gif" />
+        <div>
+            <img class="level" src="../img/lvl1.gif" />
+            <img class="level" src="../img/lvl2.gif" />
+
+        </div>
+        <!--balls-->
+        <div id="ballplace">
+            <img class="ball" src="../img/ball1.gif" />
+        </div>
+        <!--board of connect 4-->
+        <div id="gameBoard">
+            
+            <div class="column" id="col0">
+                <span class=""></span>
+                <div id="00"></div>
+                <div id="01"></div>
+                <div id="02"></div>
+                <div id="03"></div>
+                <div id="04"></div>
+                <div id="05"></div>
+            </div>
+            <div class="column" id="col1">
+                <span class=""></span>
+                <div id="10"></div>
+                <div id="11"></div>
+                <div id="12"></div>
+                <div id="13"></div>
+                <div id="14"></div>
+                <div id="15"></div>
+            </div>
+            <div class="column" id="col2">
+                <span class="ball next-ball player0"></span>
+                <div id="20"></div>
+                <div id="21"></div>
+                <div id="22"></div>
+                <div id="23"></div>
+                <div id="24"></div>
+                <div id="25"></div>
+            </div>
+            <div class="column" id="col3">
+                <span class="ball next-ball player0"></span>
+                <div id="30"></div>
+                <div id="31"></div>
+                <div id="32"></div>
+                <div id="33"></div>
+                <div id="34"></div>
+                <div id="35"></div>
+            </div>
+            <div class="column" id="col4">
+                <span class="ball next-ball player0"></span>
+                <div id="40"></div>
+                <div id="41"></div>
+                <div id="42"></div>
+                <div id="43"></div>
+                <div id="44"></div>
+                <div id="45"></div>
+            </div>
+            <div class="column" id="col5">
+                <span class="ball next-ball player0"></span>
+                <div id="50"></div>
+                <div id="51"></div>
+                <div id="52"></div>
+                <div id="53"></div>
+                <div id="54"></div>
+                <div id="55"></div>
+            </div>
+        
+        <div class="column" id="col6">
+                <span class="ball next-ball player0"></span>
+                <div id="60"></div>
+                <div id="61"></div>
+                <div id="62"></div>
+                <div id="63"></div>
+                <div id="64"></div>
+                <div id="65"></div>
+            </div>
+        </div><!--end of board-->
+        
+    </div>
+</body>
+</html>

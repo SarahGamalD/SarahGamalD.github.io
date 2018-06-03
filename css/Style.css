@@ -1,0 +1,64 @@
+/*Sara*/
+body {
+    background-image: url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 650px;
+    margin: 80px auto;
+    text-align: center;
+    border: 2px solid;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    border-color: #b9262a;
+    border-width: 5px;
+    font-family: "Montserrat", Futura, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #b9262a;
+}
+
+.container2 {
+    width: 650px;
+    margin: 80px auto;
+    text-align: center;
+    border: 2px solid;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    border-color: #b9262a;
+    border-width: 5px;
+    font-family: "Montserrat", Futura, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #b9262a;
+}
+
+button ,input[type="submit"] {
+    font-family: "Montserrat", Futura, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #b9262a;
+    background-color: #fff;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border-color: #b9262a;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+    background-image: url(../img/mm3.jpg) ;
+    background-repeat:no-repeat;
+    width: 300px;
+}
+
+input {
+    font-family: "Montserrat", Futura, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #b9262a;
+    background-color: #fff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    cursor: pointer;
+}

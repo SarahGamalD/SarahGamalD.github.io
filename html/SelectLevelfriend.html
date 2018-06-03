@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Level</title>
+    <meta charset="utf-8" />
+    <link href="../css/Style.css" rel="stylesheet" />
+    <script src="../javascript/friend.js"></script>
+
+</head>
+<body>
+    <form method="get" action="tableBoard.html" onsubmit="return chkdata(event)">
+        <div class="container">
+            <h1>Connect Four</h1>
+            <h3>Enter Names</h3>
+            <input  type="text" name="name1text" id="player-1" style="display: block;" placeholder="Player 1 Name"  />
+            <input type="text" name="name2text" id="player-2" style="display: block;" placeholder="Player 2 Name" />
+            <h2>Select Level</h2>
+            <input  type="submit" value="Level One" onclick="window.name='Level 1'" />
+            <input  type="submit" value="Level Two" onclick="window.name='Level 2'"/>
+        </div>
+    </form>
+</body>
+</html>
